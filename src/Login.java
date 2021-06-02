@@ -144,6 +144,7 @@ public class Login extends javax.swing.JFrame {
         else{
         Conexao conecta = new Conexao();
         conecta.conecta();
+        Variaveis.encontrado = 0;
         conecta.selectFuncionarios(" select * from sistema.funcionarios where funcCpf = '"+Variaveis.funcCpf+"' and senha = '"+Variaveis.senha+"' ");
         try {
             conecta.desconectar();

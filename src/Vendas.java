@@ -85,6 +85,7 @@ public class Vendas extends javax.swing.JFrame {
         // -----------------------------------------------
 
         // Preenchendo o CPF e nome do Vendedor ----------
+        System.out.println("cpfFuncLogado: "+Variaveis.cpfFuncLogado);
         jTextField12.setText(Variaveis.cpfFuncLogado);
         jTextField13.setText(Variaveis.nomeFuncLogado);
         // -----------------------------------------------
